@@ -116,7 +116,7 @@ def animate_to_position(end_t):
         arm_2.keyframe_insert("rotation_euler", frame=frame)
         
 def main():
-    goal = [ 0.1, -0.1 ]
+    goal = [ 0.2, 0. ]
     cfg = 0
 
     theta = IK_analytical(goal, cfg)
@@ -126,11 +126,11 @@ def main():
     print(f"FK check result: x = {xy[0]:.2f}, y = {xy[1]:.2f}")
 
     # home position
-    # go_to_position([0,0])
+    go_to_position([0,0])
 
     # calculated position
     # go_to_position(theta)
 
-#    animate_to_position(theta)
+    animate_to_position(theta)
     
 main()
