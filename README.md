@@ -9,7 +9,7 @@ As a part of VRM workshops, this project was carried out to demonstrate the use 
 
 Visualisation of the blender Scripting development environment:
 
-![ex](examle.png) 
+![ex](example.png) 
 
 :red_circle: Brno University of Technology,
 
