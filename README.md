@@ -1,6 +1,6 @@
 # Blender 2DOF SCARA LS3-B401C
 
-As a part of VRM worksops, this project was carried out to demonstrate the use of Blender software and the implementation of the Inverse Kinematics solver. The main parts:
+As a part of VRM workshops, this project was carried out to demonstrate the use of Blender software and the implementation of the Inverse Kinematics solver. The main parts:
 
 * Analytical Inverse Kinematics
 * Denavit–Hartenberg Forward Kinematics
